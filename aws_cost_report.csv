@@ -1,0 +1,305 @@
+Date,Service,Cost (USD)
+2025-06-19,AWS Backup,1.0203410501
+2025-06-19,AWS Config,0.72708
+2025-06-19,AWS Cost Explorer,0.0166
+2025-06-19,AWS DataSync,6.37864e-05
+2025-06-19,AWS Database Migration Service,2.7308106624
+2025-06-19,AWS Glue,10.1983191141
+2025-06-19,AWS HealthImaging,3.3214e-05
+2025-06-19,AWS Key Management Service,2.828182428
+2025-06-19,AWS Lambda,10.1595648782
+2025-06-19,AWS Secrets Manager,1.7779736104
+2025-06-19,AWS Step Functions,0.4348555302
+2025-06-19,AWS Systems Manager,0.0140685
+2025-06-19,AWS WAF,1.08894921
+2025-06-19,AWS X-Ray,1.36359455
+2025-06-19,Amazon API Gateway,0.4156830432
+2025-06-19,Amazon Athena,3.616144
+2025-06-19,Amazon CloudFront,0.0014598024
+2025-06-19,Amazon DynamoDB,0.9832138493
+2025-06-19,Amazon EC2 Container Registry (ECR),4.9560836943
+2025-06-19,EC2 - Other,22.7566712562
+2025-06-19,Amazon Elastic Compute Cloud - Compute,88.2038033207
+2025-06-19,Amazon Elastic Container Service,0.0066331777
+2025-06-19,Amazon Elastic Load Balancing,4.9382678718
+2025-06-19,Amazon Elastic MapReduce,63.2172856997
+2025-06-19,Amazon Glacier,4.2e-08
+2025-06-19,Amazon GuardDuty,15.4268531129
+2025-06-19,Amazon Kinesis,0.9136406408
+2025-06-19,Amazon Kinesis Firehose,0.1414092072
+2025-06-19,Amazon Neptune,0.0001139208
+2025-06-19,Amazon OpenSearch Service,3.4378974805
+2025-06-19,Amazon Quantum Ledger Database,2.382e-07
+2025-06-19,Amazon QuickSight,13.9440001176
+2025-06-19,Amazon Redshift,54.8499837663
+2025-06-19,Amazon Relational Database Service,40.5551328756
+2025-06-19,Amazon Route 53,0.1986952494
+2025-06-19,Amazon Simple Email Service,0.0050736567
+2025-06-19,Amazon Simple Notification Service,1.0217574177
+2025-06-19,Amazon Simple Queue Service,3.2016265751
+2025-06-19,Amazon Simple Storage Service,72.4467623152
+2025-06-19,Amazon Simple Workflow Service,1.212e-07
+2025-06-19,Amazon Timestream,10.6284266688
+2025-06-19,Amazon Virtual Private Cloud,12.7239588541
+2025-06-19,AmazonCloudWatch,68.6514092104
+2025-06-19,CloudWatch Events,0.01780018
+2025-06-20,AWS Backup,1.0205742541
+2025-06-20,AWS Config,0.28137
+2025-06-20,AWS Cost Explorer,0.0166
+2025-06-20,AWS Database Migration Service,2.7308106624
+2025-06-20,AWS Glue,9.2994709052
+2025-06-20,AWS HealthImaging,3.3214e-05
+2025-06-20,AWS Key Management Service,2.8045991758
+2025-06-20,AWS Lambda,9.3852578905
+2025-06-20,AWS Secrets Manager,1.7668391604
+2025-06-20,AWS Step Functions,0.4174405811
+2025-06-20,AWS Systems Manager,0.0140602
+2025-06-20,AWS WAF,1.08878985
+2025-06-20,AWS X-Ray,1.32202815
+2025-06-20,Amazon API Gateway,0.4236742787
+2025-06-20,Amazon Athena,4.2191722
+2025-06-20,Amazon CloudFront,0.001555245
+2025-06-20,Amazon DynamoDB,0.9347546159
+2025-06-20,Amazon EC2 Container Registry (ECR),4.9852366794
+2025-06-20,EC2 - Other,21.8820492153
+2025-06-20,Amazon Elastic Compute Cloud - Compute,64.016961504
+2025-06-20,Amazon Elastic Container Service,0.0066331684
+2025-06-20,Amazon Elastic Load Balancing,4.9363811439
+2025-06-20,Amazon Elastic MapReduce,57.1049875813
+2025-06-20,Amazon Glacier,4.2e-08
+2025-06-20,Amazon GuardDuty,14.8671571496
+2025-06-20,Amazon Kinesis,0.912981438
+2025-06-20,Amazon Kinesis Firehose,0.1359877088
+2025-06-20,Amazon Neptune,0.0001139208
+2025-06-20,Amazon OpenSearch Service,3.4379050546
+2025-06-20,Amazon Quantum Ledger Database,2.382e-07
+2025-06-20,Amazon QuickSight,13.9440001176
+2025-06-20,Amazon Redshift,52.8037022903
+2025-06-20,Amazon Relational Database Service,40.5588793638
+2025-06-20,Amazon Route 53,0.1997485194
+2025-06-20,Amazon Simple Email Service,0.0052376515
+2025-06-20,Amazon Simple Notification Service,0.9049387567
+2025-06-20,Amazon Simple Queue Service,2.9377411823
+2025-06-20,Amazon Simple Storage Service,68.442733486
+2025-06-20,Amazon Simple Workflow Service,1.212e-07
+2025-06-20,Amazon Timestream,10.6284266688
+2025-06-20,Amazon Virtual Private Cloud,13.6185804044
+2025-06-20,AmazonCloudWatch,68.1194385669
+2025-06-20,CloudWatch Events,0.01488522
+2025-06-21,AWS Backup,1.0207755784
+2025-06-21,AWS Config,0.04233
+2025-06-21,AWS Cost Explorer,0.0166
+2025-06-21,AWS Database Migration Service,2.7308106624
+2025-06-21,AWS Glue,9.0821222168
+2025-06-21,AWS HealthImaging,3.3214e-05
+2025-06-21,AWS Key Management Service,3.079338768
+2025-06-21,AWS Lambda,8.9881034853
+2025-06-21,AWS Secrets Manager,1.6320181104
+2025-06-21,AWS Step Functions,0.2443131119
+2025-06-21,AWS Systems Manager,0.0140602
+2025-06-21,AWS WAF,1.08957171
+2025-06-21,AWS X-Ray,1.0738125
+2025-06-21,Amazon API Gateway,0.4183982324
+2025-06-21,Amazon Athena,0.225511
+2025-06-21,Amazon CloudFront,0.0003154937
+2025-06-21,Amazon DynamoDB,0.8272831426
+2025-06-21,Amazon EC2 Container Registry (ECR),4.9878490944
+2025-06-21,EC2 - Other,20.5603537036
+2025-06-21,Amazon Elastic Compute Cloud - Compute,93.2089999751
+2025-06-21,Amazon Elastic Container Service,0.0066332457
+2025-06-21,Amazon Elastic Load Balancing,4.9349969582
+2025-06-21,Amazon Elastic MapReduce,52.9808841167
+2025-06-21,Amazon Glacier,4.2e-08
+2025-06-21,Amazon GuardDuty,12.6989255691
+2025-06-21,Amazon Kinesis,0.9115230584
+2025-06-21,Amazon Kinesis Firehose,0.1269283123
+2025-06-21,Amazon Neptune,0.0001139208
+2025-06-21,Amazon OpenSearch Service,3.4378937302
+2025-06-21,Amazon Quantum Ledger Database,2.382e-07
+2025-06-21,Amazon QuickSight,13.9440001176
+2025-06-21,Amazon Redshift,46.6851503257
+2025-06-21,Amazon Relational Database Service,40.323686795
+2025-06-21,Amazon Route 53,0.1953513454
+2025-06-21,Amazon Simple Email Service,0.0005036265
+2025-06-21,Amazon Simple Notification Service,0.5171531416
+2025-06-21,Amazon Simple Queue Service,2.3192677382
+2025-06-21,Amazon Simple Storage Service,134.65172893
+2025-06-21,Amazon Simple Workflow Service,1.212e-07
+2025-06-21,Amazon Timestream,10.6284266688
+2025-06-21,Amazon Virtual Private Cloud,12.5474024403
+2025-06-21,AmazonCloudWatch,66.2457331902
+2025-06-21,CloudWatch Events,0.00836806
+2025-06-22,AWS Backup,1.020960389
+2025-06-22,AWS Config,0.0498
+2025-06-22,AWS Cost Explorer,0.0166
+2025-06-22,AWS Database Migration Service,2.7308106624
+2025-06-22,AWS Glue,9.8272240032
+2025-06-22,AWS HealthImaging,3.3214e-05
+2025-06-22,AWS Key Management Service,2.667119268
+2025-06-22,AWS Lambda,8.3559745501
+2025-06-22,AWS Secrets Manager,1.6242036604
+2025-06-22,AWS Step Functions,0.3018431367
+2025-06-22,AWS Systems Manager,0.0140602
+2025-06-22,AWS WAF,1.08745272
+2025-06-22,AWS X-Ray,0.9485572
+2025-06-22,Amazon API Gateway,0.4094894249
+2025-06-22,Amazon Athena,7.2738876
+2025-06-22,Amazon CloudFront,0.0010866916
+2025-06-22,Amazon DynamoDB,0.8023893709
+2025-06-22,Amazon EC2 Container Registry (ECR),4.9902221848
+2025-06-22,EC2 - Other,17.9665756127
+2025-06-22,Amazon Elastic Compute Cloud - Compute,70.3751823047
+2025-06-22,Amazon Elastic Container Service,0.0066332389
+2025-06-22,Amazon Elastic Load Balancing,4.9351074039
+2025-06-22,Amazon Elastic MapReduce,44.4144729435
+2025-06-22,Amazon Glacier,4.2e-08
+2025-06-22,Amazon GuardDuty,14.7003893189
+2025-06-22,Amazon Kinesis,0.9115050935
+2025-06-22,Amazon Kinesis Firehose,0.1280245254
+2025-06-22,Amazon Neptune,0.0001139208
+2025-06-22,Amazon OpenSearch Service,3.437907774
+2025-06-22,Amazon Quantum Ledger Database,2.382e-07
+2025-06-22,Amazon QuickSight,13.9440001176
+2025-06-22,Amazon Redshift,50.0135975144
+2025-06-22,Amazon Relational Database Service,40.2257136931
+2025-06-22,Amazon Route 53,0.1960326094
+2025-06-22,Amazon Simple Email Service,0.0003372733
+2025-06-22,Amazon Simple Notification Service,0.4696097246
+2025-06-22,Amazon Simple Queue Service,2.2982829673
+2025-06-22,Amazon Simple Storage Service,136.7731386359
+2025-06-22,Amazon Simple Workflow Service,1.212e-07
+2025-06-22,Amazon Timestream,10.6284266688
+2025-06-22,Amazon Virtual Private Cloud,12.5917235011
+2025-06-22,AmazonCloudWatch,67.1593257383
+2025-06-22,CloudWatch Events,0.00934912
+2025-06-23,AWS Backup,1.0212895424
+2025-06-23,AWS CloudShell,9.75e-08
+2025-06-23,AWS Config,0.4731
+2025-06-23,AWS Cost Explorer,0.0166
+2025-06-23,AWS DataSync,0.0001283913
+2025-06-23,AWS Database Migration Service,2.7308106624
+2025-06-23,AWS Glue,16.9136335068
+2025-06-23,AWS HealthImaging,1.6607e-05
+2025-06-23,AWS Key Management Service,2.882362338
+2025-06-23,AWS Lambda,9.7835418351
+2025-06-23,AWS Secrets Manager,1.7754997349
+2025-06-23,AWS Step Functions,0.596767411
+2025-06-23,AWS Systems Manager,0.0140021
+2025-06-23,AWS WAF,1.089323208
+2025-06-23,AWS X-Ray,1.48563775
+2025-06-23,Amazon API Gateway,0.4308120489
+2025-06-23,Amazon Athena,3.022943
+2025-06-23,Amazon CloudFront,0.0005393117
+2025-06-23,Amazon DynamoDB,1.0270048601
+2025-06-23,Amazon EC2 Container Registry (ECR),5.0037897726
+2025-06-23,EC2 - Other,18.2330379023
+2025-06-23,Amazon Elastic Compute Cloud - Compute,46.7488676137
+2025-06-23,Amazon Elastic Container Service,0.0066331949
+2025-06-23,Amazon Elastic Load Balancing,4.9417017358
+2025-06-23,Amazon Elastic MapReduce,48.7518243461
+2025-06-23,Amazon Glacier,2.07e-08
+2025-06-23,Amazon GuardDuty,16.5154892998
+2025-06-23,Amazon Kinesis,0.9138144178
+2025-06-23,Amazon Kinesis Firehose,0.1415744825
+2025-06-23,Amazon Neptune,0.0001139208
+2025-06-23,Amazon OpenSearch Service,3.4379133154
+2025-06-23,Amazon Quantum Ledger Database,2.382e-07
+2025-06-23,Amazon QuickSight,14.4420001176
+2025-06-23,Amazon Redshift,71.9340312894
+2025-06-23,Amazon Relational Database Service,36.5905351094
+2025-06-23,Amazon Route 53,0.2003681974
+2025-06-23,Amazon Simple Email Service,0.0329814737
+2025-06-23,Amazon Simple Notification Service,1.0312924918
+2025-06-23,Amazon Simple Queue Service,3.5179023732
+2025-06-23,Amazon Simple Storage Service,77.2703936091
+2025-06-23,Amazon Simple Workflow Service,5.98e-08
+2025-06-23,Amazon Timestream,10.6284266688
+2025-06-23,Amazon Virtual Private Cloud,14.1723778101
+2025-06-23,AmazonCloudWatch,62.1397389885
+2025-06-23,CloudWatch Events,0.04516611
+2025-06-24,AWS Backup,1.0216336952
+2025-06-24,AWS Config,2.15883
+2025-06-24,AWS Cost Explorer,0.0166
+2025-06-24,AWS Database Migration Service,2.7308106624
+2025-06-24,AWS Glue,9.7345174479
+2025-06-24,AWS HealthImaging,3.3214e-05
+2025-06-24,AWS Key Management Service,2.7788899258
+2025-06-24,AWS Lambda,9.6477774468
+2025-06-24,AWS Secrets Manager,1.7744419604
+2025-06-24,AWS Step Functions,0.5581841984
+2025-06-24,AWS Systems Manager,0.0140602
+2025-06-24,AWS WAF,1.087519452
+2025-06-24,AWS X-Ray,1.23822305
+2025-06-24,Amazon API Gateway,0.4100884542
+2025-06-24,Amazon Athena,4.22941025
+2025-06-24,Amazon CloudFront,0.0011955186
+2025-06-24,Amazon DynamoDB,0.9785715961
+2025-06-24,Amazon EC2 Container Registry (ECR),5.0816818801
+2025-06-24,EC2 - Other,21.7497115519
+2025-06-24,Amazon Elastic Compute Cloud - Compute,37.8567572113
+2025-06-24,Amazon Elastic Container Service,0.0066331081
+2025-06-24,Amazon Elastic Load Balancing,4.9447912626
+2025-06-24,Amazon Elastic MapReduce,44.4365667756
+2025-06-24,Amazon Glacier,4.2e-08
+2025-06-24,Amazon GuardDuty,16.4259201232
+2025-06-24,Amazon Kinesis,0.9317120759
+2025-06-24,Amazon Kinesis Firehose,0.3198892659
+2025-06-24,Amazon Neptune,0.0001139208
+2025-06-24,Amazon OpenSearch Service,3.4379029872
+2025-06-24,Amazon Quantum Ledger Database,2.382e-07
+2025-06-24,Amazon QuickSight,13.9440001176
+2025-06-24,Amazon Redshift,52.9635392605
+2025-06-24,Amazon Relational Database Service,23.3126668662
+2025-06-24,Amazon Route 53,0.1990498254
+2025-06-24,Amazon Simple Email Service,0.0069056119
+2025-06-24,Amazon Simple Notification Service,0.9948253545
+2025-06-24,Amazon Simple Queue Service,3.3642507476
+2025-06-24,Amazon Simple Storage Service,76.6017784462
+2025-06-24,Amazon Simple Workflow Service,1.212e-07
+2025-06-24,Amazon Timestream,10.6284266688
+2025-06-24,Amazon Virtual Private Cloud,12.6760353625
+2025-06-24,AmazonCloudWatch,66.4803051798
+2025-06-24,CloudWatch Events,0.04498683
+2025-06-25,AWS Backup,0.1566159022
+2025-06-25,AWS Config,0.76194
+2025-06-25,AWS Cost Explorer,0.0166
+2025-06-25,AWS Database Migration Service,2.3894593296
+2025-06-25,AWS Glue,9.4525791183
+2025-06-25,AWS HealthImaging,3.3214e-05
+2025-06-25,AWS Key Management Service,2.356469443
+2025-06-25,AWS Lambda,9.0791048146
+2025-06-25,AWS Secrets Manager,1.6081154716
+2025-06-25,AWS Step Functions,0.4605834327
+2025-06-25,AWS Systems Manager,0.0123172
+2025-06-25,AWS WAF,0.952583862
+2025-06-25,AWS X-Ray,0.80117825
+2025-06-25,Amazon API Gateway,0.3624025898
+2025-06-25,Amazon Athena,4.2806586
+2025-06-25,Amazon CloudFront,0.0015124253
+2025-06-25,Amazon DynamoDB,0.8647784748
+2025-06-25,Amazon EC2 Container Registry (ECR),4.4147785176
+2025-06-25,EC2 - Other,18.8654147652
+2025-06-25,Amazon Elastic Compute Cloud - Compute,38.068223693
+2025-06-25,Amazon Elastic Container Service,0.0058039959
+2025-06-25,Amazon Elastic Load Balancing,4.3258591161
+2025-06-25,Amazon Elastic MapReduce,51.2238914872
+2025-06-25,Amazon Glacier,4.2e-08
+2025-06-25,Amazon GuardDuty,15.2848469799
+2025-06-25,Amazon Kinesis,0.8000786808
+2025-06-25,Amazon Kinesis Firehose,0.1277659379
+2025-06-25,Amazon Neptune,8.54406e-05
+2025-06-25,Amazon OpenSearch Service,3.0081618046
+2025-06-25,Amazon Quantum Ledger Database,2.1e-07
+2025-06-25,Amazon QuickSight,12.2010001029
+2025-06-25,Amazon Redshift,51.2928297103
+2025-06-25,Amazon Relational Database Service,13.9121854963
+2025-06-25,Amazon Route 53,0.1965108554
+2025-06-25,Amazon Simple Email Service,0.0184412125
+2025-06-25,Amazon Simple Notification Service,1.0308864787
+2025-06-25,Amazon Simple Queue Service,3.1204034563
+2025-06-25,Amazon Simple Storage Service,72.7550615192
+2025-06-25,Amazon Simple Workflow Service,1.212e-07
+2025-06-25,Amazon Timestream,9.2998733352
+2025-06-25,Amazon Virtual Private Cloud,10.7306160544
+2025-06-25,AmazonCloudWatch,59.293124027
+2025-06-25,CloudWatch Events,0.02149451
