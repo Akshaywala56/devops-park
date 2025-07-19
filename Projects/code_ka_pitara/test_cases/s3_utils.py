@@ -1,0 +1,8 @@
+# s3_utils.py
+import boto3
+
+s3 = boto3.client('s3')
+
+def list_files(bucket_name, prefix):
+    response = s3.list_objects_v2(Bucket=bucket_name, Prefix=prefix)
+    return [obj['Key'] for obj in response.get('Contents', [])]
