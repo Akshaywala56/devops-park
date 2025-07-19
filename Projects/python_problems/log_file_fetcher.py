@@ -1,15 +1,13 @@
 import re
-log_file_path = "C:\git\devops-park\Projects\python_problems\sample.log"
+log_file_path = r"C:\git\devops-park\Projects\python_problems\sample.log"
+pattern = r"\b(ERROR|DEBUG|Warning)\b"
 error_lines =[]
  
 try:
     with open(log_file_path,'r') as f:
         for line in f:
-            word =["ERROR","DEBUG","Warning"]
-            if re.search(rf"\b{word}\b",line):
-                print(line)
-            else:
-                pass
+            if re.search(pattern,line):
+                print(line.strip())
 except FileNotFoundError:
     print(f"Error: log file '{log_file_path}' not found.")
 except Exception as e:
