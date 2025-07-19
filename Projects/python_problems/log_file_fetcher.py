@@ -1,18 +1,7 @@
-# 🔍 Log Filter Script (Python)
-
-# A lightweight Python script to scan and extract specific log levels (`ERROR`, `DEBUG`, `Warning`) from any `.log` file.
-
-# ## 🚀 Features
-# - Filters log entries based on level
-# - Supports regex word-boundary matching (no partial matches!)
-# - Handles missing file errors gracefully
-# - Easy to extend for other log levels
-
-# ## 🛠️ Usage
-
-# Update the file path:
-# ```python
-# log_file_path = r"C:\path\to\your\logfile.log"
+# A simple Python script to parse log files and extract lines with specific log levels like ERROR, DEBUG, and Warning.  
+# Uses regex with word boundaries to avoid partial matches.  
+# Handles file read errors gracefully.  
+# Great for basic log analysis and DevOps tasks.
 
 import re
 log_file_path = r"C:\git\devops-park\Projects\python_problems\sample.log"
