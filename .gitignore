@@ -263,6 +263,7 @@ yarn-error.log*
 .mypy_cache/
 .dmypy.json
 dmypy.json
+venv
 
 # ===== PROJECT SPECIFIC =====
 # Large data files (adjust as needed)
