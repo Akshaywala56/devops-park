@@ -1,0 +1,11 @@
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+temporal.zip
+temporal.exe
+*.exe
+temporal-cli/
+.venv/
+__pycache__/
