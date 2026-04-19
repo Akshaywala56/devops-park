@@ -5,17 +5,29 @@ import { generateClient } from "aws-amplify/data";
 import type { Schema } from "@/amplify/data/resource";
 import "./../app/app.css";
 import { Amplify } from "aws-amplify";
-import outputs from "@/amplify_outputs.json";
+import outputs from "../amplify_outputs.json";
 import "@aws-amplify/ui-react/styles.css";
 
-Amplify.configure(outputs);
+export const dynamic = "force-dynamic";
 
-const client = generateClient<Schema>();
+try {
+  Amplify.configure(outputs);
+} catch (error) {
+  console.log("Amplify configuration warning:", error);
+}
+
+let client: ReturnType<typeof generateClient<Schema>> | null = null;
+try {
+  client = generateClient<Schema>();
+} catch (error) {
+  console.log("Client generation warning:", error);
+}
 
 export default function App() {
   const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
 
   function listTodos() {
+    if (!client) return;
     client.models.Todo.observeQuery().subscribe({
       next: (data) => setTodos([...data.items]),
     });
@@ -26,8 +38,12 @@ export default function App() {
   }, []);
 
   function createTodo() {
+    if (!client) {
+      alert("Amplify is not properly configured");
+      return;
+    }
     client.models.Todo.create({
-      content: window.prompt("Todo content"),
+      content: window.prompt("Todo content") || "",
     });
   }
 
