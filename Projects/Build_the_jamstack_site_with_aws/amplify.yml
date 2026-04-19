@@ -4,11 +4,13 @@ applications:
       phases:
         preBuild:
           commands:
+            # Install all dependencies
             - npm ci
         build:
           commands:
-            # This line generates the missing amplify_outputs.json file
+            # 1. This command builds your backend and creates amplify_outputs.json
             - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
+            # 2. Now that the file exists, build the Next.js frontend
             - npm run build
       artifacts:
         baseDirectory: .next
@@ -17,4 +19,5 @@ applications:
       cache:
         paths:
           - node_modules/**/*
+    # This tells Amplify exactly where your code lives in the repo
     appRoot: Projects/Build_the_jamstack_site_with_aws
