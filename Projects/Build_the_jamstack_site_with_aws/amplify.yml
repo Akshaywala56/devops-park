@@ -1,4 +1,5 @@
 version: 1
+appRoot: Projects/Build_the_jamstack_site_with_aws
 applications:
   - frontend:
       phases:
@@ -19,5 +20,3 @@ applications:
       cache:
         paths:
           - node_modules/**/*
-    # This tells Amplify exactly where your code lives in the repo
-    appRoot: Projects/Build_the_jamstack_site_with_aws
