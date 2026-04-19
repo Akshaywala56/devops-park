@@ -1,22 +1,22 @@
 version: 1
-appRoot: Projects/Build_the_jamstack_site_with_aws
-applications:
-  - frontend:
-      phases:
-        preBuild:
-          commands:
-            # Install all dependencies
-            - npm ci
-        build:
-          commands:
-            # 1. This command builds your backend and creates amplify_outputs.json
-            - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
-            # 2. Now that the file exists, build the Next.js frontend
-            - npm run build
-      artifacts:
-        baseDirectory: .next
-        files:
-          - '**/*'
-      cache:
-        paths:
-          - node_modules/**/*
+backend:
+  phases:
+    build:
+      commands:
+        - npm ci
+        - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*

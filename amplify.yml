@@ -1,14 +1,19 @@
 version: 1
 appRoot: Projects/Build_the_jamstack_site_with_aws
 applications:
-  - frontend:
+  - backend:
+      phases:
+        build:
+          commands:
+            - npm ci
+            - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
+    frontend:
       phases:
         preBuild:
           commands:
             - npm ci
         build:
           commands:
-            - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
             - npm run build
       artifacts:
         baseDirectory: .next
