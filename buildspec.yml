@@ -1,0 +1,35 @@
+version: 0.2
+
+env:
+  variables:
+    AMPLIFY_USERPOOL_ID: $AMPLIFY_USERPOOL_ID
+    AMPLIFY_WEBCLIENT_ID: $AMPLIFY_WEBCLIENT_ID
+
+phases:
+  pre_build:
+    commands:
+      - echo "Installing dependencies in the app directory..."
+      - cd Projects/Build_the_jamstack_site_with_aws
+      - npm ci
+
+  build:
+    commands:
+      - echo "Building backend..."
+      - npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
+      - echo "Building Next.js frontend..."
+      - npm run build
+
+  post_build:
+    commands:
+      - echo "Build completed on `date`"
+
+artifacts:
+  name: BuildArtifact
+  files:
+    - '**/*'
+  base-directory: Projects/Build_the_jamstack_site_with_aws/.next
+  discard-paths: no
+
+cache:
+  paths:
+    - 'Projects/Build_the_jamstack_site_with_aws/node_modules/**/*'
